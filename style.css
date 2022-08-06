@@ -1,0 +1,136 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --primary: purple;
+}
+
+.background-1{
+    background-image: url(images/Lighthouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 9px 10px;
+    justify-content: flex-end;
+}
+
+.nav-list h1{
+    color: var(--primary);
+    margin-right:auto;
+    cursor: pointer;
+}
+
+.nav-list ul{
+    list-style: none;
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+    color: lightseagreen;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    transition-duration: 4s ease;
+}
+
+.nav-list li a:hover{
+    color: steelblue;
+}
+
+.content{
+    text-transform: capitalize;
+    font-size: large;
+    color: black;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.content h1{
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bold;
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(56, 51, 51);
+    position: relative;
+    left:800px;
+    bottom: 300px;
+    border-radius: 20px;
+    color: white;
+}
+
+.container .name{
+    position: relative;
+    left:2rem;
+    padding: 12px;
+    margin: 18px;
+    font-size: 23px;
+    top: 2rem;
+}
+
+.container .name #Name{
+    outline: none;
+    padding: 6px 9px;
+    background-color: tan;
+}
+
+.container .psw{
+    position: relative;
+    top: 5rem;  
+    left: 2rem;  
+    font-size: 23px;
+}
+
+.container .psw #Psw{
+    outline: none;
+    padding: 6px 9px;
+    background-color: tan;
+}
+
+.container .phone{
+    position: relative;
+    top: 10rem;
+    font-size: 23px;
+    right: 15rem;
+}
+
+.container #pn{
+    position: relative;
+    left: 23rem;
+    bottom: 2rem;
+    outline: none;
+    padding: 6px 9px;
+    background-color: tan;
+}
+
+.container .submit{
+    position: relative;
+    top: 11rem;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 9px;
+    padding: 5px 20px;
+    transition-duration: 200ms linear;
+    cursor: pointer;
+}
+
+.container .submit:hover{
+    color: rgb(56, 51, 51);
+    background-color: bisque;
+}
+
+
+
+
+
